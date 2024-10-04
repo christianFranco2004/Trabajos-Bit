@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Vinculacion con CSS3-->
+   <link rel="stylesheet" href="./calculador.css">
+  <!--Vinculacion a JS-->
+   <script async src="./calculadora.js"></script>
+
+    <title>Calculadora</title>
+</head>
+<!--INICIO BODY-->
+<body>
+    <div id="calculator">
+        <!--Nos muestra los resultados de las operaciones-->
+        <input type="text" id="display" disabled>
+        <br />
+        <!--Nos borra todo el contenido-->
+        <button id="ac" class="operator">AC</button>
+        <!--Nos borra valor por valor-->
+        <button id="de" class="operator">DE</button>
+        <!--Punto para hacer operaciones decimales-->
+        <button id="." class="operator">.</button>
+        <!--Operador de divisor-->
+        <button id="/" class="operator">/</button>
+        <br />
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <!--Operador de multiplicacion-->
+        <button id="*" class="operator">*</button>
+        <br />
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <!--Operador de resta-->
+        <button id="-" class="operator">-</button>
+        <br />
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <!--Operador de suma-->
+        <button id="+" class="operator">+</button>
+        <br />
+        <button id="00">00</button>
+        <button id="0">0</button>
+        <!--Operador de igualdad-->
+        <button id="=" class="equal operator">=</button>
+    </div>
+
+ 
+</body>
+</html>

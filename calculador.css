@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    margin: 0;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Tamaño y fonso de la calculadora*/
+#calculator{
+    width: 200px;
+    background-color: #0d1b2a;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+/*Nos muestra los resultados de las operaciones*/
+#display{
+    width: 100%;
+    height: 56px;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #e0e1dd;
+    background-color: rgba(13, 27, 42, 0.3);
+    border: none;
+    box-sizing: border-box;
+    
+}
+/*Modifica el color de los operadores*/
+.operator{
+    color: #29b959;
+    
+}
+/*Boton de borrar todo*/
+#ac{
+    color: #d82e45;
+}
+/*Boton de igual*/
+.equal{
+    width: calc(50% - 10px);/*Tamaño del boton de igual*/
+}
+/*botones*/
+button{
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    float:left ;/*agrupa los elementos flotantes a la izquierda*/
+    background-color: rgb(13, 27, 42);
+    color: #e0e1dd;
+}
+
+
+button:hover{
+    cursor: pointer ;/*Cambia el cursor cuando pasamos por un boton*/
+   
+}
+/*Nos muestra cuando presionamosun boton*/
+button:active{
+    transform: scale(1.05);/*Tamaño de la sombra del boton para saber que boton estamos oprimiendo*/
+    box-shadow: 0 24px 4px 1px rgba(0, 0, 0, 0.19), 0 1.5px /*sombra del boton cuando lo oprimimos*/
+
+}
+
